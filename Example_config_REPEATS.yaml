@@ -1,0 +1,21 @@
+# Config file for 5mCartograph_REPEATS.smk
+# Config_5mCargotraph_....yaml -> configuration of sample specific files (individual for each sample)
+
+# 5mCartograph tool location
+tool_folder_name: /path/to/tool_directory/
+
+# here the generated files, log files and result files will be stored (previously: folder_name)
+result_folder_name: /path/to/result_directory/
+
+# subfolder for set
+subfolder_name: MITEs/
+
+# whole path to  of the tsv file (previously: tsv_name -> now whole path is used)
+tsv_path: /path/to/sample.call_mods.frequency.tsv
+
+# path to corresponding annotation that was also used to create the tsv file with DeepSignal-plant (previously: anno_name -> now whole path is used)
+anno_path: /path/to/annotation.gff
+
+# plot title
+# all _ will be replaced by spaces
+plot_title: cytosine_methylation_profile_-_MITEs

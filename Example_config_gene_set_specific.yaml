@@ -1,0 +1,18 @@
+# Config file for 5mCartograph.smk for gene set specific analysis
+# Config_5mCargotraph_....yaml -> configuration of sample specific files (individual for each sample)
+
+# 5mCartograph tool location
+tool_folder_name: /path/to/tool_directory/
+
+# here the generated files, log files and result files will be stored
+result_folder_name: /path/to/result_directory/gene_subset/
+
+# whole path to  of the tsv file
+tsv_path: /path/to/sample.call_mods.frequency.tsv
+
+# path to corresponding annotation that was also used to create the tsv file with DeepSignal-plant
+anno_path: /path/to/annotation.gff
+
+# plot title
+# all _ will be replaced by spaces
+plot_title: 5mC_methylation_levels_-_KWS2320_-_SWEET_genes
